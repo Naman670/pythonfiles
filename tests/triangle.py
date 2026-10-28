@@ -8,13 +8,13 @@ def main():
 
 def print_triangle(size):
     for i in range(size):
-        print(" " * (size-1), "* " * (i+1), sep="", end="\n")
+        print(" " * (size-1), "* " * (i+1), sep="")
         size -=1
 
 
 def print_triangle_reverse(size):
     for i in range(size):
-        print(" " * (i), "* " * (size), sep="", end="\n")
+        print(" " * (i), "* " * (size), sep="")
         size -=1
 
 
